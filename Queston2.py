@@ -7,7 +7,7 @@ def start_database():
         cursor = conn.cursor()
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS users (
-                id INTEGER PRIMARY KEY,
+                id iINTEGER PRIMARY KEY,
                 name TEXT NOT NULL,
                 user_id INTEGER NOT NULL
             )
